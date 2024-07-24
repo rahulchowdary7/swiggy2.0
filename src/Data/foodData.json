@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "category": "Biryani",
+    "name": "Chicken Biryani",
+    "description": "Spicy chicken biryani",
+    "price": 10.99,
+    "image": "/images/1.jfif"
+  },
+  {
+    "id": 2,
+    "category": "Biryani",
+    "name": "Mutton Biryani",
+    "description": "Tender mutton biryani",
+    "price": 12.99,
+    "image": "/images/2.jfif"
+  },
+  {
+    "id": 3,
+    "category": "Biryani",
+    "name": "Veg Biryani",
+    "description": "Mixed vegetable biryani",
+    "price": 8.99,
+    "image": "/images/3.jfif"
+  },
+  {
+    "id": 4,
+    "category": "Biryani",
+    "name": "Egg Biryani",
+    "description": "Delicious egg biryani",
+    "price": 9.99,
+    "image": "/images/4.jfif"
+  },
+  {
+    "id": 5,
+    "category": "Veg Dishes",
+    "name": "Paneer Butter Masala",
+    "description": "Rich and creamy paneer dish",
+    "price": 8.99,
+    "image": "/images/5.jfif"
+  },
+  {
+    "id": 6,
+    "category": "Veg Dishes",
+    "name": "Aloo Gobi",
+    "description": "Potato and cauliflower curry",
+    "price": 6.99,
+    "image": "/images/6.jfif"
+  },
+  {
+    "id": 7,
+    "category": "Veg Dishes",
+    "name": "Chole Bhature",
+    "description": "Spicy chickpeas with fried bread",
+    "price": 7.99,
+    "image": "/images/7.jfif"
+  },
+  {
+    "id": 8,
+    "category": "Veg Dishes",
+    "name": "Vegetable Curry",
+    "description": "Mixed vegetable curry",
+    "price": 6.99,
+    "image": "/images/8.jfif"
+  },
+  {
+    "id": 9,
+    "category": "Chicken Items",
+    "name": "Grilled Chicken",
+    "description": "Juicy grilled chicken",
+    "price": 12.99,
+    "image": "/images/9.jfif"
+  },
+  {
+    "id": 10,
+    "category": "Chicken Items",
+    "name": "Chicken Curry",
+    "description": "Spicy chicken curry",
+    "price": 9.99,
+    "image": "/images/10.jfif"
+  },
+  {
+    "id": 11,
+    "category": "Chicken Items",
+    "name": "Chicken Tikka",
+    "description": "Marinated chicken tikka",
+    "price": 11.99,
+    "image": "/images/11.jfif"
+  },
+  {
+    "id": 12,
+    "category": "Chicken Items",
+    "name": "Chicken Wings",
+    "description": "Spicy chicken wings",
+    "price": 8.99,
+    "image": "/images/12.jfif"
+  }
+]

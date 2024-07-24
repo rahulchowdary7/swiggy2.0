@@ -1,38 +1,107 @@
-.App {
+/* src/App.css */
+.app {
   text-align: center;
+  font-family: Arial, sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #dd1a1a;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.food-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.food-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: left;
+  width: 200px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.food-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.food-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.food-card h3 {
+  margin: 0.5rem 0;
+}
+
+.food-card p {
+  margin: 0.5rem 0;
+  color: #555;
+}
+
+.food-card button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.food-card button:hover {
+  background-color: #218838;
+}
+
+.cart {
+  padding: 1rem;
+}
+
+.cart-item {
+  border-bottom: 1px solid #ccc;
+  padding: 0.5rem 0;
+}
+
+.cart-item h3 {
+  margin: 0.5rem 0;
+}
+
+.cart-item p {
+  margin: 0.5rem 0;
+  color: #555;
+}
+
+.cart-item button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.cart-item button:hover {
+  background-color: #c82333;
+}
+
+.category {
+  margin: 2rem 0;
+}
+
+.category h2 {
+  background-color: #f8f8f8;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: left;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }

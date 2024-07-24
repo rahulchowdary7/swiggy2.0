@@ -1,0 +1,14 @@
+
+.category {
+    margin: 2rem 0;
+  }
+  
+  .category h2 {
+    background-color: #f8f8f8;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: left;
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  

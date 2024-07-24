@@ -1,0 +1,80 @@
+/* src/components/Home.css */
+.home {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .home-header {
+    background-color: #007bff;
+    color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+  }
+  
+  .home-header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  
+  .home-header p {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+  }
+  
+  .home-features, .home-categories {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .feature-card, .category-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    width: 250px;
+    text-align: center;
+  }
+  
+  .feature-icon, .category-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .feature-card h2, .category-card h3 {
+    margin: 0.5rem 0;
+  }
+  
+  .category-card {
+    color: white;
+  }
+  
+  .biryani {
+    background-color: #ff9800; /* Orange */
+  }
+  
+  .veg-dishes {
+    background-color: #4caf50; /* Green */
+  }
+  
+  .chicken-items {
+    background-color: #f44336; /* Red */
+  }
+  
+  .home-footer {
+    padding: 1rem;
+    background-color: #007bff;
+    color: white;
+    border-radius: 8px;
+  }
+  
+  .home-footer p {
+    margin: 0;
+  }
+  
